@@ -1,0 +1,90 @@
+/* Общие стили */
+
+body {
+  font-family: sans-serif;
+  color: #666;
+  background-color: #222;
+}
+
+h1, h2 {
+  font-weight: bold;
+  color: #fff;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  color: #fff;
+}
+
+/* Разделы */
+
+header {
+  padding: 2rem;
+  background-color: #333;
+}
+
+main {
+  padding: 4rem;
+}
+
+section {
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+/* Особенности */
+
+.features ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Снимки экрана */
+
+.screenshots img {
+  max-width: 300px;
+  margin: 0 1rem;
+}
+
+/* Призыв к действию */
+
+.call-to-action {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #666;
+}
+
+/* Нижний колонтитул */
+
+footer {
+  padding: 2rem;
+  background-color: #333;
+  text-align: center;
+}

@@ -57,7 +57,7 @@ section {
 /* Снимки экрана */
 
 .screenshots img {
-  max-width: 300px;
+  max-width: 600px;
   margin: 0 1rem;
 }
 
